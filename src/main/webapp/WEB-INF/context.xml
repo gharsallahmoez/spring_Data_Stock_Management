@@ -21,7 +21,7 @@
   		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
   		<property name="url" value="jdbc:mysql://localhost:3306/stock"/>
   		<property name="username" value="root" />
-  		<property name="password" value=""/>
+  		<property name="password" value="scratchpes11"/>
   	</bean>
   	
   	<jpa:repositories base-package="stock.management" /> 

@@ -55,7 +55,7 @@ public class AppController {
 	public String saveProd(Model model, @ModelAttribute("produit") Produit p) {
 		
 	
-		Magasin m = service.getMagById(1);
+		Magasin m = service.getMagById(p.getMag().getId());
 		p.setMag(m);
 		service.addProduit(p);
 		return ("redirect:/home");
